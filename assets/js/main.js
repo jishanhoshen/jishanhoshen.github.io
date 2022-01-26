@@ -12,6 +12,23 @@ $('.filter button').click(function () {
 /*----------------------------------------------------------------*/
 // custom isotop end
 
+/*----------------------------------------------------------------*/
+// skills srtart
+$('.tool-items').hide();
+$('.skill-items').show();
+$('.tool-btn a').click(function () {
+    var skillbtn = $(this);
+
+    var items = skillbtn[0].className+'-items';
+    $('.tool-items').hide();
+    $('.skill-items').hide();
+    $('.'+items).fadeIn(500);
+    
+    $('.tool-btn a').removeClass('active');
+    $('.'+skillbtn[0].className).addClass('active');
+});
+/*----------------------------------------------------------------*/
+// skills end
 
 
 /* Dashboard script */
