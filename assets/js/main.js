@@ -40,7 +40,6 @@ $('.tool-btn a').click(function () {
 // skills end
 
 
-
 /* Dashboard script */
 /*----------------------------------------------------------------*/
 // dashboard srtart
@@ -48,7 +47,6 @@ $('.navSwitch').click(function () {
     if ($('.navSwitch i').hasClass('fa-toggle-on')) {
         navmini_off();
     } else {
-
         navmini_on();
     }
 });
